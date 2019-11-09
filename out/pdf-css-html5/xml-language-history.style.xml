@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<css:root xmlns:chfox="http://www.oxygenxml.com/chemistry/extensions/fop"
+    xmlns:css="http://www.w3.org/1998/CSS" xmlns:ditaarch="ditaarch" xmlns:oxy="oxy">
+    <css:pages>
+        <css:page>
+            <css:footnote>
+                <css:property name="border-top-style" value="solid"/>
+                <css:property name="border-top-color" value="black"/>
+                <css:property name="border-top-width" value="thin"/>
+                <css:property name="padding-top" value="8pt"/>
+            </css:footnote>
+        </css:page>
+        <css:page>
+            <css:property name="padding-top" value="0.2em"/>
+            <css:property name="padding-bottom" value="0.2em"/>
+            <css:property name="width" value="8.5in"/>
+            <css:property name="height" value="11.0in"/>
+            <css:property name="margin-top" value="1in"/>
+            <css:property name="margin-right" value="1in"/>
+            <css:property name="margin-left" value="1in"/>
+            <css:property name="margin-bottom" value="1in"/>
+        </css:page>
+        <css:page pseudo="left ">
+            <css:top-left>
+                <css:property name="content">
+                    <css:string name="maptitle" position="first"/>
+                    <css:string name="parttitle" position="first"/>
+                    <css:string name="chaptertitle" position="first"/>
+                    <css:string name="sectiontitle" position="first"/>
+                    <css:text> | </css:text>
+                    <css:counter format="decimal" name="page"/>
+                </css:property>
+                <css:property name="font-size" value="8pt"/>
+            </css:top-left>
+        </css:page>
+        <css:page pseudo="right ">
+            <css:top-right>
+                <css:property name="content">
+                    <css:string name="maptitle" position="first"/>
+                    <css:string name="parttitle" position="first"/>
+                    <css:string name="chaptertitle" position="first"/>
+                    <css:string name="sectiontitle" position="first"/>
+                    <css:text> | </css:text>
+                    <css:counter format="decimal" name="page"/>
+                </css:property>
+                <css:property name="font-size" value="8pt"/>
+            </css:top-right>
+        </css:page>
+        <css:page pseudo="blank ">
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+        </css:page>
+        <css:page name="front-page">
+            <css:top-left-corner>
+                <css:property name="content"/>
+            </css:top-left-corner>
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:top-right-corner>
+                <css:property name="content"/>
+            </css:top-right-corner>
+            <css:bottom-left-corner>
+                <css:property name="content"/>
+            </css:bottom-left-corner>
+            <css:bottom-left>
+                <css:property name="content"/>
+            </css:bottom-left>
+            <css:bottom-center>
+                <css:property name="content"/>
+            </css:bottom-center>
+            <css:bottom-right>
+                <css:property name="content"/>
+            </css:bottom-right>
+            <css:bottom-right-corner>
+                <css:property name="content"/>
+            </css:bottom-right-corner>
+        </css:page>
+        <css:page name="table-of-contents">
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:bottom-left>
+                <css:property name="content"/>
+            </css:bottom-left>
+            <css:bottom-center>
+                <css:property name="content"/>
+            </css:bottom-center>
+            <css:bottom-right>
+                <css:property name="content"/>
+            </css:bottom-right>
+        </css:page>
+        <css:page name="index">
+            <css:top-left-corner>
+                <css:property name="content"/>
+            </css:top-left-corner>
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:top-right-corner>
+                <css:property name="content"/>
+            </css:top-right-corner>
+            <css:bottom-left-corner>
+                <css:property name="content"/>
+            </css:bottom-left-corner>
+            <css:bottom-left>
+                <css:property name="content"/>
+            </css:bottom-left>
+            <css:bottom-center>
+                <css:property name="content">
+                    <css:counter format="lower-alpha" name="page"/>
+                </css:property>
+            </css:bottom-center>
+            <css:bottom-right>
+                <css:property name="content"/>
+            </css:bottom-right>
+            <css:bottom-right-corner>
+                <css:property name="content"/>
+            </css:bottom-right-corner>
+        </css:page>
+        <css:page name="index">
+            <css:property name="column-count" value="2"/>
+            <css:property name="column-fill" value="auto"/>
+        </css:page>
+        <css:page name="chapter"/>
+        <css:page name="matter-page">
+            <css:top-left-corner>
+                <css:property name="content"/>
+            </css:top-left-corner>
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:top-right-corner>
+                <css:property name="content"/>
+            </css:top-right-corner>
+            <css:bottom-left-corner>
+                <css:property name="content"/>
+            </css:bottom-left-corner>
+            <css:bottom-left>
+                <css:property name="content"/>
+            </css:bottom-left>
+            <css:bottom-center>
+                <css:property name="content"/>
+            </css:bottom-center>
+            <css:bottom-right>
+                <css:property name="content"/>
+            </css:bottom-right>
+            <css:bottom-right-corner>
+                <css:property name="content"/>
+            </css:bottom-right-corner>
+        </css:page>
+        <css:page name="portrait-page">
+            <css:property name="orientation" value="portrait"/>
+        </css:page>
+        <css:page name="table-of-contents" pseudo="left ">
+            <css:top-left>
+                <css:property name="content">
+                    <css:string name="toc-header" position="first"/>
+                    <css:text> | </css:text>
+                    <css:counter format="lower-roman" name="page"/>
+                </css:property>
+                <css:property name="font-size" value="8pt"/>
+            </css:top-left>
+        </css:page>
+        <css:page name="table-of-contents" pseudo="right ">
+            <css:top-right>
+                <css:property name="content">
+                    <css:string name="toc-header" position="first"/>
+                    <css:text> | </css:text>
+                    <css:counter format="lower-roman" name="page"/>
+                </css:property>
+                <css:property name="font-size" value="8pt"/>
+            </css:top-right>
+        </css:page>
+        <css:page name="landscape-page" pseudo="right ">
+            <css:property name="orientation" value="landscape"/>
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:right-bottom>
+                <css:property name="content">
+                    <css:reference-orientation-container-pmb reference-orientation="270">
+                        <css:string name="maptitle" position="first"/>
+                        <css:string name="parttitle" position="first"/>
+                        <css:string name="chaptertitle" position="first"/>
+                        <css:string name="sectiontitle" position="first"/>
+                        <css:text> | </css:text>
+                        <css:counter format="decimal" name="page"/>
+                    </css:reference-orientation-container-pmb>
+                </css:property>
+                <css:property name="font-size" value="8pt"/>
+                <css:property name="vertical-align" value="middle"/>
+                <css:property name="text-align" value="right"/>
+            </css:right-bottom>
+        </css:page>
+        <css:page name="landscape-page" pseudo="left ">
+            <css:property name="orientation" value="landscape"/>
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:right-top>
+                <css:property name="content">
+                    <css:reference-orientation-container-pmb reference-orientation="270">
+                        <css:string name="maptitle" position="first"/>
+                        <css:string name="parttitle" position="first"/>
+                        <css:string name="chaptertitle" position="first"/>
+                        <css:string name="sectiontitle" position="first"/>
+                        <css:text> | </css:text>
+                        <css:counter format="decimal" name="page"/>
+                    </css:reference-orientation-container-pmb>
+                </css:property>
+                <css:property name="font-size" value="8pt"/>
+                <css:property name="vertical-align" value="middle"/>
+                <css:property name="text-align" value="left"/>
+            </css:right-top>
+        </css:page>
+        <css:page name="table-of-contents" pseudo="first left ">
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+        </css:page>
+        <css:page name="table-of-contents" pseudo="first right ">
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+        </css:page>
+        <css:page name="chapter" pseudo="first left ">
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+        </css:page>
+        <css:page name="chapter" pseudo="first right ">
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+        </css:page>
+    </css:pages>
+    <css:page-sequence initial-page-number="1" page="front-page">
+        <html css:counter-reset=" page 1" css:display="block"
+            css:font-family="serif, Times, Times New Roman, Symbol, MingLiU, MS Mincho, Arial Unicode MS"
+            css:font-size="12px">
+            <head css:border-bottom-color="white" css:border-bottom-style="solid"
+                css:border-bottom-width="1pt" css:border-left-color="white"
+                css:border-left-style="solid" css:border-left-width="1pt"
+                css:border-right-color="white" css:border-right-style="solid"
+                css:border-right-width="1pt" css:border-top-color="white"
+                css:border-top-style="solid" css:border-top-width="1pt" css:display="none"
+                css:padding-bottom="1em" css:padding-left="1em" css:padding-right="1em"
+                css:padding-top="1em">
+                <meta charset="UTF-8" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px"/>
+                <meta content="(C) Copyright 2019" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="copyright"/>
+                <meta content="(C) Copyright 2019" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px"
+                    name="DC.rights.owner"/>
+                <meta content="map" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="DC.Type"/>
+                <meta content="XHTML" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="DC.Format"/>
+                <link css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller"
+                    css:link="file:/C:/Program Files/Oxygen XML Editor 20/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page.css"
+                    css:margin-bottom="1px" css:margin-left="0" css:margin-right="0"
+                    css:margin-top="1px"
+                    href="file:/C:/Program Files/Oxygen XML Editor 20/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page.css"
+                    rel="stylesheet" type="text/css"/>
+                <link css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller"
+                    css:link="file:/C:/Program Files/Oxygen XML Editor 20/frameworks/dita/css/print/p-dita.css"
+                    css:margin-bottom="1px" css:margin-left="0" css:margin-right="0"
+                    css:margin-top="1px"
+                    href="file:/C:/Program Files/Oxygen XML Editor 20/frameworks/dita/css/print/p-dita.css"
+                    rel="stylesheet" type="text/css"/>
+                <title css:border-bottom-color="rgb(0 , 68 , 119)" css:border-bottom-style="solid"
+                    css:border-bottom-width="2px" css:color="rgb(0 , 34 , 68)" css:display="none"
+                    css:font-size="2.2em" css:font-weight="bold" css:margin-bottom="0.5em"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">
+                    <css:oxy-pdf-meta-title>
+                        <css:content source="text"/>
+                    </css:oxy-pdf-meta-title>
+                </title>
+            </head>
+            <body class="wh_topic_page" css:display="block" css:font-size="11.5pt"
+                css:margin-left="auto" css:margin-right="auto">
+                <div class="wh_content_area" css:display="block" css:min-height="500px">
+                    <div class="wh_topic_body" css:display="block">
+                        <div class="wh_topic_content" css:display="block">
+                            <div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+                                cascade="merge" class="- map/map map"
+                                css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0"
+                                css:display="block" ditaarch:ditaarchversion="1.3"
+                                domains="(map mapgroup-d)                            (topic abbrev-d)                            (topic delay-d)                            a(props deliveryTarget)                            (map ditavalref-d)                            (map glossref-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)">
+                                <css:string-set name="toc-header">
+                                    <css:text>Contents</css:text>
+                                </css:string-set>
+                                <div class="front-page/front-page front-page" css:display="block">
+                                    <div class="front-page/front-page-title front-page-title"
+                                        css:display="block"
+                                        css:font-family="Arial, helvetica, sans-serif"
+                                        css:font-size="2em" css:font-weight="bold"
+                                        css:margin-top="3in" css:text-align="center">
+                                        <div class="- topic/title title" css:display="block"
+                                            css:page-break-after="avoid"><css:string-set
+                                                name="maptitle"><css:content source="text"
+                                                /></css:string-set>History of XML Languages</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
+    </css:page-sequence>
+    <css:page-sequence page="table-of-contents">
+        <html css:counter-reset=" page 1" css:display="block"
+            css:font-family="serif, Times, Times New Roman, Symbol, MingLiU, MS Mincho, Arial Unicode MS"
+            css:font-size="12px">
+            <body class="wh_topic_page" css:display="block" css:font-size="11.5pt"
+                css:margin-left="auto" css:margin-right="auto">
+                <div class="wh_content_area" css:display="block" css:min-height="500px">
+                    <div class="wh_topic_body" css:display="block">
+                        <div class="wh_topic_content" css:display="block">
+                            <div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+                                cascade="merge" class="- map/map map"
+                                css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0"
+                                css:display="block" ditaarch:ditaarchversion="1.3"
+                                domains="(map mapgroup-d)                            (topic abbrev-d)                            (topic delay-d)                            a(props deliveryTarget)                            (map ditavalref-d)                            (map glossref-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)">
+                                <div class="toc/toc toc" css:display="block">
+                                    <div class="toc/titletitle" css:display="block" empty="true"/>
+                                    <div class="- topic/title title" css:display="none"
+                                        css:page-break-after="avoid">History of XML Languages</div>
+                                    <div class="- map/topicref topicref" css:display="block"
+                                        css:font-weight="bold" css:margin-bottom="0.5em"
+                                        css:margin-top="0.5em" href="#unique_1" is-chapter="true"
+                                        type="concept">
+                                        <div class="- map/topicmeta topicmeta"
+                                            css:border-bottom-color="transparent"
+                                            css:border-bottom-style="none"
+                                            css:border-left-color="transparent"
+                                            css:border-left-style="none"
+                                            css:border-right-color="transparent"
+                                            css:border-right-style="none"
+                                            css:border-top-color="transparent"
+                                            css:border-top-style="none" css:display="block"
+                                            css:margin-bottom="0" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="0"
+                                            css:padding-bottom="0" css:padding-left="0"
+                                            css:padding-right="0" css:padding-top="0"
+                                            data-topic-id="What_is_a_markup_language">
+                                            <css:before css:display="inline"/>
+                                            <div appid="What_is_a_markup_language"
+                                                class="- topic/resourceid resourceid"
+                                                css:display="none" oxy-source="topic"/>
+                                            <div class="- topic/navtitle navtitle"
+                                                css:display="block" css:link="#unique_1"
+                                                css:text-align-last="justify" href="#unique_1"
+                                                  ><css:before css:display="inline"
+                                                  css:link="#unique_1"><css:text>Chapter
+                                                  </css:text><css:counter name="toc-chapter"
+                                                  value="1"/><css:text>.
+                                                </css:text></css:before>What is a markup
+                                                  language<css:after css:display="inline"
+                                                  css:link="#unique_1"><css:leader pattern="."
+                                                  /><css:target-counter url-fragment="unique_1"
+                                                  /></css:after></div>
+                                            <div class="- map/shortdesc shortdesc"
+                                                css:display="none">An overview of markup
+                                                languages</div>
+                                        </div>
+                                        <div class="- map/topicref topicref" css:display="block"
+                                            css:font-weight="normal" css:margin-bottom="0.5em"
+                                            css:margin-left="2em" css:margin-top="0.5em"
+                                            href="#unique_2" type="reference">
+                                            <div class="- map/topicmeta topicmeta"
+                                                css:border-bottom-color="transparent"
+                                                css:border-bottom-style="none"
+                                                css:border-left-color="transparent"
+                                                css:border-left-style="none"
+                                                css:border-right-color="transparent"
+                                                css:border-right-style="none"
+                                                css:border-top-color="transparent"
+                                                css:border-top-style="none" css:display="block"
+                                                css:margin-bottom="0" css:margin-left="0"
+                                                css:margin-right="0" css:margin-top="0"
+                                                css:padding-bottom="0" css:padding-left="0"
+                                                css:padding-right="0" css:padding-top="0"
+                                                data-topic-id="different_markup_languages">
+                                                <css:before css:display="inline"/>
+                                                <div appid="different_markup_languages"
+                                                  class="- topic/resourceid resourceid"
+                                                  css:display="none" oxy-source="topic"/>
+                                                <div class="- topic/navtitle navtitle"
+                                                  css:display="block" css:link="#unique_2"
+                                                  css:text-align-last="justify" href="#unique_2"
+                                                  ><css:before css:display="inline"
+                                                  css:link="#unique_2"/>Different markup
+                                                  languages<css:after css:display="inline"
+                                                  css:link="#unique_2"><css:leader pattern="."
+                                                  /><css:target-counter url-fragment="unique_2"
+                                                  /></css:after></div>
+                                                <div class="- map/shortdesc shortdesc"
+                                                  css:display="none">A reference list of markup
+                                                  languages</div>
+                                            </div>
+                                            <div class="- map/topicref topicref" css:display="block"
+                                                css:margin-bottom="0.5em" css:margin-left="2em"
+                                                css:margin-top="0.5em" href="#unique_3"
+                                                type="concept">
+                                                <div class="- map/topicmeta topicmeta"
+                                                  css:border-bottom-color="transparent"
+                                                  css:border-bottom-style="none"
+                                                  css:border-left-color="transparent"
+                                                  css:border-left-style="none"
+                                                  css:border-right-color="transparent"
+                                                  css:border-right-style="none"
+                                                  css:border-top-color="transparent"
+                                                  css:border-top-style="none" css:display="block"
+                                                  css:margin-bottom="0" css:margin-left="0"
+                                                  css:margin-right="0" css:margin-top="0"
+                                                  css:padding-bottom="0" css:padding-left="0"
+                                                  css:padding-right="0" css:padding-top="0"
+                                                  data-topic-id="what_is_xml">
+                                                  <css:before css:display="inline"/>
+                                                  <div appid="what_is_xml"
+                                                  class="- topic/resourceid resourceid"
+                                                  css:display="none" oxy-source="topic"/>
+                                                  <div class="- topic/navtitle navtitle"
+                                                  css:display="block" css:link="#unique_3"
+                                                  css:text-align-last="justify" href="#unique_3"
+                                                  ><css:before css:display="inline"
+                                                  css:link="#unique_3"/>What is XML<css:after
+                                                  css:display="inline" css:link="#unique_3"
+                                                  ><css:leader pattern="."/><css:target-counter
+                                                  url-fragment="unique_3"/></css:after></div>
+                                                  <div class="- map/shortdesc shortdesc"
+                                                  css:display="none">An overview of XML</div>
+                                                </div>
+                                            </div>
+                                            <div class="- map/topicref topicref" css:display="block"
+                                                css:margin-bottom="0.5em" css:margin-left="2em"
+                                                css:margin-top="0.5em" href="#unique_4"
+                                                type="concept">
+                                                <div class="- map/topicmeta topicmeta"
+                                                  css:border-bottom-color="transparent"
+                                                  css:border-bottom-style="none"
+                                                  css:border-left-color="transparent"
+                                                  css:border-left-style="none"
+                                                  css:border-right-color="transparent"
+                                                  css:border-right-style="none"
+                                                  css:border-top-color="transparent"
+                                                  css:border-top-style="none" css:display="block"
+                                                  css:margin-bottom="0" css:margin-left="0"
+                                                  css:margin-right="0" css:margin-top="0"
+                                                  css:padding-bottom="0" css:padding-left="0"
+                                                  css:padding-right="0" css:padding-top="0"
+                                                  data-topic-id="what_is_html">
+                                                  <css:before css:display="inline"/>
+                                                  <div appid="what_is_html"
+                                                  class="- topic/resourceid resourceid"
+                                                  css:display="none" oxy-source="topic"/>
+                                                  <div class="- topic/navtitle navtitle"
+                                                  css:display="block" css:link="#unique_4"
+                                                  css:text-align-last="justify" href="#unique_4"
+                                                  ><css:before css:display="inline"
+                                                  css:link="#unique_4"/>What is HTML<css:after
+                                                  css:display="inline" css:link="#unique_4"
+                                                  ><css:leader pattern="."/><css:target-counter
+                                                  url-fragment="unique_4"/></css:after></div>
+                                                  <div class="- map/shortdesc shortdesc"
+                                                  css:display="none">An overview of HTML</div>
+                                                </div>
+                                                <div class="- map/topicref topicref"
+                                                  css:display="none" css:margin-bottom="0.5em"
+                                                  css:margin-left="2em" css:margin-top="0.5em"
+                                                  href="#unique_5" type="reference">
+                                                  <div class="- map/topicmeta topicmeta"
+                                                  css:border-bottom-color="transparent"
+                                                  css:border-bottom-style="none"
+                                                  css:border-left-color="transparent"
+                                                  css:border-left-style="none"
+                                                  css:border-right-color="transparent"
+                                                  css:border-right-style="none"
+                                                  css:border-top-color="transparent"
+                                                  css:border-top-style="none" css:display="none"
+                                                  css:margin-bottom="0" css:margin-left="0"
+                                                  css:margin-right="0" css:margin-top="0"
+                                                  css:padding-bottom="0" css:padding-left="0"
+                                                  css:padding-right="0" css:padding-top="0"
+                                                  data-topic-id="some_html_elements">
+                                                  <div appid="some_html_elements"
+                                                  class="- topic/resourceid resourceid"
+                                                  css:display="none" oxy-source="topic"/>
+                                                  <div class="- topic/navtitle navtitle"
+                                                  css:display="none" css:link="#unique_5"
+                                                  href="#unique_5">Some HTML elements</div>
+                                                  <div class="- map/shortdesc shortdesc"
+                                                  css:display="none">An overview of HTML
+                                                  elements</div>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="- map/topicref topicref" css:display="block"
+                                            css:font-weight="normal" css:margin-bottom="0.5em"
+                                            css:margin-left="2em" css:margin-top="0.5em"
+                                            href="#unique_3" type="concept">
+                                            <div class="- map/topicmeta topicmeta"
+                                                css:border-bottom-color="transparent"
+                                                css:border-bottom-style="none"
+                                                css:border-left-color="transparent"
+                                                css:border-left-style="none"
+                                                css:border-right-color="transparent"
+                                                css:border-right-style="none"
+                                                css:border-top-color="transparent"
+                                                css:border-top-style="none" css:display="block"
+                                                css:margin-bottom="0" css:margin-left="0"
+                                                css:margin-right="0" css:margin-top="0"
+                                                css:padding-bottom="0" css:padding-left="0"
+                                                css:padding-right="0" css:padding-top="0"
+                                                data-topic-id="what_is_xml">
+                                                <css:before css:display="inline"/>
+                                                <div appid="what_is_xml"
+                                                  class="- topic/resourceid resourceid"
+                                                  css:display="none" oxy-source="topic"/>
+                                                <div class="- topic/navtitle navtitle"
+                                                  css:display="block" css:link="#unique_3_ssol1"
+                                                  css:text-align-last="justify"
+                                                  href="#unique_3_ssol1"><css:before
+                                                  css:display="inline" css:link="#unique_3_ssol1"
+                                                  />What is XML<css:after css:display="inline"
+                                                  css:link="#unique_3_ssol1"><css:leader pattern="."
+                                                  /><css:target-counter
+                                                  url-fragment="unique_3_ssol1"/></css:after></div>
+                                                <div class="- map/shortdesc shortdesc"
+                                                  css:display="none">An overview of XML</div>
+                                            </div>
+                                            <div class="- map/topicref topicref" css:display="block"
+                                                css:margin-bottom="0.5em" css:margin-left="2em"
+                                                css:margin-top="0.5em" href="#unique_6"
+                                                type="concept">
+                                                <div class="- map/topicmeta topicmeta"
+                                                  css:border-bottom-color="transparent"
+                                                  css:border-bottom-style="none"
+                                                  css:border-left-color="transparent"
+                                                  css:border-left-style="none"
+                                                  css:border-right-color="transparent"
+                                                  css:border-right-style="none"
+                                                  css:border-top-color="transparent"
+                                                  css:border-top-style="none" css:display="block"
+                                                  css:margin-bottom="0" css:margin-left="0"
+                                                  css:margin-right="0" css:margin-top="0"
+                                                  css:padding-bottom="0" css:padding-left="0"
+                                                  css:padding-right="0" css:padding-top="0"
+                                                  data-topic-id="what_is_a_schema_language">
+                                                  <css:before css:display="inline"/>
+                                                  <div appid="what_is_a_schema_language"
+                                                  class="- topic/resourceid resourceid"
+                                                  css:display="none" oxy-source="topic"/>
+                                                  <div class="- topic/navtitle navtitle"
+                                                  css:display="block" css:link="#unique_6"
+                                                  css:text-align-last="justify" href="#unique_6"
+                                                  ><css:before css:display="inline"
+                                                  css:link="#unique_6"/>What is a schema
+                                                  language<css:after css:display="inline"
+                                                  css:link="#unique_6"><css:leader pattern="."
+                                                  /><css:target-counter url-fragment="unique_6"
+                                                  /></css:after></div>
+                                                  <div class="- map/shortdesc shortdesc"
+                                                  css:display="none">An overview of schema
+                                                  languages</div>
+                                                </div>
+                                                <div class="- map/topicref topicref"
+                                                  css:display="none" css:margin-bottom="0.5em"
+                                                  css:margin-left="2em" css:margin-top="0.5em"
+                                                  href="#unique_7" type="concept">
+                                                  <div class="- map/topicmeta topicmeta"
+                                                  css:border-bottom-color="transparent"
+                                                  css:border-bottom-style="none"
+                                                  css:border-left-color="transparent"
+                                                  css:border-left-style="none"
+                                                  css:border-right-color="transparent"
+                                                  css:border-right-style="none"
+                                                  css:border-top-color="transparent"
+                                                  css:border-top-style="none" css:display="none"
+                                                  css:margin-bottom="0" css:margin-left="0"
+                                                  css:margin-right="0" css:margin-top="0"
+                                                  css:padding-bottom="0" css:padding-left="0"
+                                                  css:padding-right="0" css:padding-top="0"
+                                                  data-topic-id="DTD">
+                                                  <div appid="DTD"
+                                                  class="- topic/resourceid resourceid"
+                                                  css:display="none" oxy-source="topic"/>
+                                                  <div class="- topic/navtitle navtitle"
+                                                  css:display="none" css:link="#unique_7"
+                                                  href="#unique_7">Document Type Definition
+                                                  (DTD)</div>
+                                                  <div class="- map/shortdesc shortdesc"
+                                                  css:display="none">An overview of DTD</div>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                            <div class="- map/topicref topicref" css:display="block"
+                                                css:margin-bottom="0.5em" css:margin-left="2em"
+                                                css:margin-top="0.5em" href="#unique_8"
+                                                type="concept">
+                                                <div class="- map/topicmeta topicmeta"
+                                                  css:border-bottom-color="transparent"
+                                                  css:border-bottom-style="none"
+                                                  css:border-left-color="transparent"
+                                                  css:border-left-style="none"
+                                                  css:border-right-color="transparent"
+                                                  css:border-right-style="none"
+                                                  css:border-top-color="transparent"
+                                                  css:border-top-style="none" css:display="block"
+                                                  css:margin-bottom="0" css:margin-left="0"
+                                                  css:margin-right="0" css:margin-top="0"
+                                                  css:padding-bottom="0" css:padding-left="0"
+                                                  css:padding-right="0" css:padding-top="0"
+                                                  data-topic-id="oxegen_xml_editor">
+                                                  <css:before css:display="inline"/>
+                                                  <div appid="oxegen_xml_editor"
+                                                  class="- topic/resourceid resourceid"
+                                                  css:display="none" oxy-source="topic"/>
+                                                  <div class="- topic/navtitle navtitle"
+                                                  css:display="block" css:link="#unique_8"
+                                                  css:text-align-last="justify" href="#unique_8"
+                                                  ><css:before css:display="inline"
+                                                  css:link="#unique_8"/>Oxegen XML Editor<css:after
+                                                  css:display="inline" css:link="#unique_8"
+                                                  ><css:leader pattern="."/><css:target-counter
+                                                  url-fragment="unique_8"/></css:after></div>
+                                                  <div class="- map/shortdesc shortdesc"
+                                                  css:display="none">An overview of the Oxegen XML
+                                                  Editor</div>
+                                                </div>
+                                                <div class="- map/topicref topicref"
+                                                  css:display="none" css:margin-bottom="0.5em"
+                                                  css:margin-left="2em" css:margin-top="0.5em"
+                                                  href="#unique_9" type="task">
+                                                  <div class="- map/topicmeta topicmeta"
+                                                  css:border-bottom-color="transparent"
+                                                  css:border-bottom-style="none"
+                                                  css:border-left-color="transparent"
+                                                  css:border-left-style="none"
+                                                  css:border-right-color="transparent"
+                                                  css:border-right-style="none"
+                                                  css:border-top-color="transparent"
+                                                  css:border-top-style="none" css:display="none"
+                                                  css:margin-bottom="0" css:margin-left="0"
+                                                  css:margin-right="0" css:margin-top="0"
+                                                  css:padding-bottom="0" css:padding-left="0"
+                                                  css:padding-right="0" css:padding-top="0"
+                                                  data-topic-id="creating_schema_languages">
+                                                  <div appid="creating_schema_languages"
+                                                  class="- topic/resourceid resourceid"
+                                                  css:display="none" oxy-source="topic"/>
+                                                  <div class="- topic/navtitle navtitle"
+                                                  css:display="none" css:link="#unique_9"
+                                                  href="#unique_9">Creating schema languages</div>
+                                                  <div class="- map/shortdesc shortdesc"
+                                                  css:display="none">How to create schema
+                                                  languages</div>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
+    </css:page-sequence>
+    <css:page-sequence xmlns:oxy="http://www.oxygenxml.com/extensions/author" page="chapter">
+        <html css:counter-reset=" page 1" css:display="block"
+            css:font-family="serif, Times, Times New Roman, Symbol, MingLiU, MS Mincho, Arial Unicode MS"
+            css:font-size="12px">
+            <body class="wh_topic_page" css:display="block" css:font-size="11.5pt"
+                css:margin-left="auto" css:margin-right="auto">
+                <div class="wh_content_area" css:display="block" css:min-height="500px">
+                    <div class="wh_topic_body" css:display="block">
+                        <div class="wh_topic_content" css:display="block">
+                            <div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+                                cascade="merge" class="- map/map map"
+                                css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0"
+                                css:display="block" ditaarch:ditaarchversion="1.3"
+                                domains="(map mapgroup-d)                            (topic abbrev-d)                            (topic delay-d)                            a(props deliveryTarget)                            (map ditavalref-d)                            (map glossref-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)">
+                                <article aria-labelledby="ariaid-title1" break-before="true"
+                                    class="- topic/topic concept/concept topic concept nested0"
+                                    css:display="block" css:margin-top="1em"
+                                    css:oxy-pdf-tag-type="Sect" id="unique_1" is-chapter="true"
+                                    oid="What_is_a_markup_language"
+                                    oxy:topicref-class="- map/topicref">
+                                    <h1 class="- topic/title title topictitle1"
+                                        css:bookmark-level="1" css:display="block"
+                                        css:font-size="2em" css:margin-bottom="1em"
+                                        css:margin-left="0" css:margin-right="0" css:margin-top="0"
+                                        css:oxy-pdf-tag-type="H1" css:page-break-after="avoid"
+                                        id="ariaid-title1"><css:string-set name="chaptertitle"
+                                                ><css:text> | </css:text><css:counter name="chapter"
+                                                value="1"/><css:text> - </css:text><css:content
+                                                source="text"
+                                                /></css:string-set><css:bookmark-label><css:content
+                                                source="before"/><css:content source="text"
+                                            /></css:bookmark-label><css:before css:display="inline"
+                                                ><css:text>Chapter </css:text><css:counter
+                                                name="chapter" value="1"/><css:text>.
+                                            </css:text></css:before>What is a markup language</h1>
+                                    <div class="- topic/body concept/conbody body conbody"
+                                        css:display="block" css:margin-bottom="0"
+                                        css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                        <p class="- topic/shortdesc shortdesc" css:display="block"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="0.5em">An overview
+                                            of markup languages</p>
+                                        <p class="- topic/p p" css:display="block"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="1em"/>
+                                    </div>
+                                    <article aria-labelledby="ariaid-title2"
+                                        class="- topic/topic reference/reference topic reference nested1"
+                                        css:display="block" css:oxy-pdf-tag-type="Sect"
+                                        id="unique_2" oid="different_markup_languages">
+                                        <h2 class="- topic/title title topictitle2"
+                                            css:bookmark-level="2" css:bookmark-state="closed"
+                                            css:display="block" css:font-size="1.7em"
+                                            css:font-style="italic" css:margin-bottom="0.5em"
+                                            css:margin-left="0" css:margin-right="0"
+                                            css:margin-top="1.5em" css:oxy-pdf-tag-type="H2"
+                                            css:page-break-after="avoid" id="ariaid-title2"
+                                                  ><css:bookmark-label><css:content source="before"
+                                                  /><css:content source="text"
+                                                /></css:bookmark-label>Different markup
+                                            languages</h2>
+                                        <div class="- topic/body reference/refbody body refbody"
+                                            css:display="block" css:margin-bottom="0"
+                                            css:margin-left="0" css:margin-right="0"
+                                            css:margin-top="0">
+                                            <p class="- topic/shortdesc shortdesc"
+                                                css:display="block" css:margin-bottom="0.5em"
+                                                css:margin-left="0" css:margin-right="0"
+                                                css:margin-top="0.5em">A reference list of markup
+                                                languages</p>
+                                        </div>
+                                        <article aria-labelledby="ariaid-title3"
+                                            class="- topic/topic concept/concept topic concept nested2"
+                                            css:display="block" css:oxy-pdf-tag-type="Sect"
+                                            id="unique_3" oid="what_is_xml">
+                                            <h3 class="- topic/title title topictitle3"
+                                                css:bookmark-level="3" css:bookmark-state="closed"
+                                                css:display="block" css:font-size="1.4em"
+                                                css:font-style="italic" css:font-weight="300"
+                                                css:margin-bottom="0.4em" css:margin-left="0"
+                                                css:margin-right="0" css:margin-top="1.3em"
+                                                css:oxy-pdf-tag-type="H3"
+                                                css:page-break-after="avoid" id="ariaid-title3"
+                                                  ><css:bookmark-label><css:content source="before"
+                                                  /><css:content source="text"
+                                                  /></css:bookmark-label>What is XML</h3>
+                                            <div class="- topic/body concept/conbody body conbody"
+                                                css:display="block" css:margin-bottom="0"
+                                                css:margin-left="0" css:margin-right="0"
+                                                css:margin-top="0">
+                                                <p class="- topic/shortdesc shortdesc"
+                                                  css:display="block" css:margin-bottom="0.5em"
+                                                  css:margin-left="0" css:margin-right="0"
+                                                  css:margin-top="0.5em">An overview of XML</p>
+                                                <p class="- topic/p p" css:display="block"
+                                                  css:margin-bottom="0.5em" css:margin-left="0"
+                                                  css:margin-right="0" css:margin-top="1em"/>
+                                            </div>
+                                        </article>
+                                        <article aria-labelledby="ariaid-title4"
+                                            class="- topic/topic concept/concept topic concept nested2"
+                                            css:display="block" css:oxy-pdf-tag-type="Sect"
+                                            id="unique_4" oid="what_is_html">
+                                            <h3 class="- topic/title title topictitle3"
+                                                css:bookmark-level="3" css:bookmark-state="closed"
+                                                css:display="block" css:font-size="1.4em"
+                                                css:font-style="italic" css:font-weight="300"
+                                                css:margin-bottom="0.4em" css:margin-left="0"
+                                                css:margin-right="0" css:margin-top="1.3em"
+                                                css:oxy-pdf-tag-type="H3"
+                                                css:page-break-after="avoid" id="ariaid-title4"
+                                                  ><css:bookmark-label><css:content source="before"
+                                                  /><css:content source="text"
+                                                  /></css:bookmark-label>What is HTML</h3>
+                                            <div class="- topic/body concept/conbody body conbody"
+                                                css:display="block" css:margin-bottom="0"
+                                                css:margin-left="0" css:margin-right="0"
+                                                css:margin-top="0">
+                                                <p class="- topic/shortdesc shortdesc"
+                                                  css:display="block" css:margin-bottom="0.5em"
+                                                  css:margin-left="0" css:margin-right="0"
+                                                  css:margin-top="0.5em">An overview of HTML</p>
+                                                <p class="- topic/p p" css:display="block"
+                                                  css:margin-bottom="0.5em" css:margin-left="0"
+                                                  css:margin-right="0" css:margin-top="1em"/>
+                                            </div>
+                                            <article aria-labelledby="ariaid-title5"
+                                                class="- topic/topic reference/reference topic reference nested3"
+                                                css:display="block" css:oxy-pdf-tag-type="Sect"
+                                                id="unique_5" oid="some_html_elements">
+                                                <h4 class="- topic/title title topictitle4"
+                                                  css:bookmark-level="4" css:bookmark-state="closed"
+                                                  css:display="block" css:font-size="1.1em"
+                                                  css:margin-bottom="0.3em" css:margin-left="0"
+                                                  css:margin-right="0" css:margin-top="1.2em"
+                                                  css:oxy-pdf-tag-type="H4"
+                                                  css:page-break-after="avoid" id="ariaid-title5"
+                                                  ><css:bookmark-label><css:content source="before"
+                                                  /><css:content source="text"
+                                                  /></css:bookmark-label>Some HTML elements</h4>
+                                                <div
+                                                  class="- topic/body reference/refbody body refbody"
+                                                  css:display="block" css:margin-bottom="0"
+                                                  css:margin-left="0" css:margin-right="0"
+                                                  css:margin-top="0">
+                                                  <p class="- topic/shortdesc shortdesc"
+                                                  css:display="block" css:margin-bottom="0.5em"
+                                                  css:margin-left="0" css:margin-right="0"
+                                                  css:margin-top="0.5em">An overview of HTML
+                                                  elements</p>
+                                                </div>
+                                            </article>
+                                        </article>
+                                    </article>
+                                    <article aria-labelledby="ariaid-title6"
+                                        class="- topic/topic concept/concept topic concept nested1"
+                                        css:display="block" css:oxy-pdf-tag-type="Sect"
+                                        id="unique_3_ssol1" oid="what_is_xml">
+                                        <h2 class="- topic/title title topictitle2"
+                                            css:bookmark-level="2" css:bookmark-state="closed"
+                                            css:display="block" css:font-size="1.7em"
+                                            css:font-style="italic" css:margin-bottom="0.5em"
+                                            css:margin-left="0" css:margin-right="0"
+                                            css:margin-top="1.5em" css:oxy-pdf-tag-type="H2"
+                                            css:page-break-after="avoid" id="ariaid-title6"
+                                                  ><css:bookmark-label><css:content source="before"
+                                                  /><css:content source="text"
+                                                /></css:bookmark-label>What is XML</h2>
+                                        <div class="- topic/body concept/conbody body conbody"
+                                            css:display="block" css:margin-bottom="0"
+                                            css:margin-left="0" css:margin-right="0"
+                                            css:margin-top="0">
+                                            <p class="- topic/shortdesc shortdesc"
+                                                css:display="block" css:margin-bottom="0.5em"
+                                                css:margin-left="0" css:margin-right="0"
+                                                css:margin-top="0.5em">An overview of XML</p>
+                                            <p class="- topic/p p" css:display="block"
+                                                css:margin-bottom="0.5em" css:margin-left="0"
+                                                css:margin-right="0" css:margin-top="1em"/>
+                                        </div>
+                                        <article aria-labelledby="ariaid-title7"
+                                            class="- topic/topic concept/concept topic concept nested2"
+                                            css:display="block" css:oxy-pdf-tag-type="Sect"
+                                            id="unique_6" oid="what_is_a_schema_language">
+                                            <h3 class="- topic/title title topictitle3"
+                                                css:bookmark-level="3" css:bookmark-state="closed"
+                                                css:display="block" css:font-size="1.4em"
+                                                css:font-style="italic" css:font-weight="300"
+                                                css:margin-bottom="0.4em" css:margin-left="0"
+                                                css:margin-right="0" css:margin-top="1.3em"
+                                                css:oxy-pdf-tag-type="H3"
+                                                css:page-break-after="avoid" id="ariaid-title7"
+                                                  ><css:bookmark-label><css:content source="before"
+                                                  /><css:content source="text"
+                                                  /></css:bookmark-label>What is a schema
+                                                language</h3>
+                                            <div class="- topic/body concept/conbody body conbody"
+                                                css:display="block" css:margin-bottom="0"
+                                                css:margin-left="0" css:margin-right="0"
+                                                css:margin-top="0">
+                                                <p class="- topic/shortdesc shortdesc"
+                                                  css:display="block" css:margin-bottom="0.5em"
+                                                  css:margin-left="0" css:margin-right="0"
+                                                  css:margin-top="0.5em">An overview of schema
+                                                  languages</p>
+                                                <p class="- topic/p p" css:display="block"
+                                                  css:margin-bottom="0.5em" css:margin-left="0"
+                                                  css:margin-right="0" css:margin-top="1em"/>
+                                            </div>
+                                            <article aria-labelledby="ariaid-title8"
+                                                class="- topic/topic concept/concept topic concept nested3"
+                                                css:display="block" css:oxy-pdf-tag-type="Sect"
+                                                id="unique_7" oid="DTD">
+                                                <h4 class="- topic/title title topictitle4"
+                                                  css:bookmark-level="4" css:bookmark-state="closed"
+                                                  css:display="block" css:font-size="1.1em"
+                                                  css:margin-bottom="0.3em" css:margin-left="0"
+                                                  css:margin-right="0" css:margin-top="1.2em"
+                                                  css:oxy-pdf-tag-type="H4"
+                                                  css:page-break-after="avoid" id="ariaid-title8"
+                                                  ><css:bookmark-label><css:content source="before"
+                                                  /><css:content source="text"
+                                                  /></css:bookmark-label>Document Type Definition
+                                                  (DTD)</h4>
+                                                <div
+                                                  class="- topic/body concept/conbody body conbody"
+                                                  css:display="block" css:margin-bottom="0"
+                                                  css:margin-left="0" css:margin-right="0"
+                                                  css:margin-top="0">
+                                                  <p class="- topic/shortdesc shortdesc"
+                                                  css:display="block" css:margin-bottom="0.5em"
+                                                  css:margin-left="0" css:margin-right="0"
+                                                  css:margin-top="0.5em">An overview of DTD</p>
+                                                  <p class="- topic/p p" css:display="block"
+                                                  css:margin-bottom="0.5em" css:margin-left="0"
+                                                  css:margin-right="0" css:margin-top="1em"/>
+                                                </div>
+                                            </article>
+                                        </article>
+                                        <article aria-labelledby="ariaid-title9"
+                                            class="- topic/topic concept/concept topic concept nested2"
+                                            css:display="block" css:oxy-pdf-tag-type="Sect"
+                                            id="unique_8" oid="oxegen_xml_editor">
+                                            <h3 class="- topic/title title topictitle3"
+                                                css:bookmark-level="3" css:bookmark-state="closed"
+                                                css:display="block" css:font-size="1.4em"
+                                                css:font-style="italic" css:font-weight="300"
+                                                css:margin-bottom="0.4em" css:margin-left="0"
+                                                css:margin-right="0" css:margin-top="1.3em"
+                                                css:oxy-pdf-tag-type="H3"
+                                                css:page-break-after="avoid" id="ariaid-title9"
+                                                  ><css:bookmark-label><css:content source="before"
+                                                  /><css:content source="text"
+                                                  /></css:bookmark-label>Oxegen XML Editor</h3>
+                                            <div class="- topic/body concept/conbody body conbody"
+                                                css:display="block" css:margin-bottom="0"
+                                                css:margin-left="0" css:margin-right="0"
+                                                css:margin-top="0">
+                                                <p class="- topic/shortdesc shortdesc"
+                                                  css:display="block" css:margin-bottom="0.5em"
+                                                  css:margin-left="0" css:margin-right="0"
+                                                  css:margin-top="0.5em">An overview of the Oxegen
+                                                  XML Editor</p>
+                                                <p class="- topic/p p" css:display="block"
+                                                  css:margin-bottom="0.5em" css:margin-left="0"
+                                                  css:margin-right="0" css:margin-top="1em"/>
+                                            </div>
+                                            <article aria-labelledby="ariaid-title10"
+                                                class="- topic/topic task/task topic task nested3"
+                                                css:display="block" css:oxy-pdf-tag-type="Sect"
+                                                id="unique_9" oid="creating_schema_languages">
+                                                <h4 class="- topic/title title topictitle4"
+                                                  css:bookmark-level="4" css:bookmark-state="closed"
+                                                  css:display="block" css:font-size="1.1em"
+                                                  css:margin-bottom="0.3em" css:margin-left="0"
+                                                  css:margin-right="0" css:margin-top="1.2em"
+                                                  css:oxy-pdf-tag-type="H4"
+                                                  css:page-break-after="avoid" id="ariaid-title10"
+                                                  ><css:bookmark-label><css:content source="before"
+                                                  /><css:content source="text"
+                                                  /></css:bookmark-label>Creating schema
+                                                  languages</h4>
+                                                <div
+                                                  class="- topic/body task/taskbody body taskbody"
+                                                  css:display="block" css:margin-bottom="0"
+                                                  css:margin-left="0" css:margin-right="0"
+                                                  css:margin-top="0">
+                                                  <p class="- topic/shortdesc shortdesc"
+                                                  css:display="block" css:margin-bottom="0.5em"
+                                                  css:margin-left="0" css:margin-right="0"
+                                                  css:margin-top="0.5em">How to create schema
+                                                  languages</p>
+                                                  <section
+                                                  class="- topic/section task/context section context"
+                                                  css:display="block" css:margin-bottom="1em"
+                                                  css:margin-top="1em" css:oxy-pdf-tag-type="Sect">
+                                                  <p class="- topic/p p" css:display="block"
+                                                  css:margin-bottom="0.5em" css:margin-left="0"
+                                                  css:margin-right="0" css:margin-top="1em"/>
+                                                  </section>
+                                                </div>
+                                            </article>
+                                        </article>
+                                    </article>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
+    </css:page-sequence>
+</css:root>

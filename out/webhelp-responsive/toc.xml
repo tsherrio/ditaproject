@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><toc xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns="http://www.oxygenxml.com/ns/webhelp/toc">
+   <title><span xmlns="http://www.w3.org/1999/xhtml" class="title">History of XML Languages</span></title>
+   <topic href="topics/concepts/markup_languages.html" data-id="What_is_a_markup_language" wh-toc-id="What_is_a_markup_language-d66e11">
+      <title>What is a markup language</title>
+      <shortdesc>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">An overview of markup languages</p>
+      </shortdesc>
+      <topicmeta>
+         <resourceid class="- topic/resourceid " oxy-source="topic" appid="What_is_a_markup_language"></resourceid>
+         <navtitle class="- topic/navtitle ">What is a markup language</navtitle><?ditaot gentext?>
+         <linktext class="- map/linktext ">What is a markup language</linktext><?ditaot genshortdesc?>
+         <shortdesc class="- map/shortdesc ">An overview of markup languages</shortdesc>
+      </topicmeta>
+      <topic href="topics/references/different_markup_languages.html" data-id="different_markup_languages" wh-toc-id="different_markup_languages-d66e22">
+         <title>Different markup languages</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">A reference list of markup languages</p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="different_markup_languages"></resourceid>
+            <navtitle class="- topic/navtitle ">Different markup languages</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Different markup languages</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">A reference list of markup languages</shortdesc>
+         </topicmeta>
+         <topic href="topics/concepts/what_is_xml.html" data-id="what_is_xml" wh-toc-id="what_is_xml-d66e33">
+            <title>What is XML</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">An overview of XML</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="what_is_xml"></resourceid>
+               <navtitle class="- topic/navtitle ">What is XML</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">What is XML</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">An overview of XML</shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="topics/concepts/what_is_html.html" data-id="what_is_html" wh-toc-id="what_is_html-d66e44">
+            <title>What is HTML</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">An overview of HTML</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="what_is_html"></resourceid>
+               <navtitle class="- topic/navtitle ">What is HTML</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">What is HTML</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">An overview of HTML</shortdesc>
+            </topicmeta>
+            <topic href="topics/references/some_html_elements.html" data-id="some_html_elements" wh-toc-id="some_html_elements-d66e55">
+               <title>Some HTML elements</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">An overview of HTML elements</p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="some_html_elements"></resourceid>
+                  <navtitle class="- topic/navtitle ">Some HTML elements</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Some HTML elements</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">An overview of HTML elements</shortdesc>
+               </topicmeta>
+            </topic>
+         </topic>
+      </topic>
+      <topic href="topics/concepts/what_is_xml_2.html" data-id="what_is_xml" wh-toc-id="what_is_xml-d66e66">
+         <title>What is XML</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">An overview of XML</p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="what_is_xml"></resourceid>
+            <navtitle class="- topic/navtitle ">What is XML</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">What is XML</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">An overview of XML</shortdesc>
+         </topicmeta>
+         <topic href="topics/concepts/schema_languages.html" data-id="what_is_a_schema_language" wh-toc-id="what_is_a_schema_language-d66e77">
+            <title>What is a schema language</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">An overview of schema languages</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="what_is_a_schema_language"></resourceid>
+               <navtitle class="- topic/navtitle ">What is a schema language</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">What is a schema language</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">An overview of schema languages</shortdesc>
+            </topicmeta>
+            <topic href="topics/concepts/dtd.html" data-id="DTD" wh-toc-id="DTD-d66e88">
+               <title>Document Type Definition (DTD)</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">An overview of DTD</p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="DTD"></resourceid>
+                  <navtitle class="- topic/navtitle ">Document Type Definition (DTD)</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Document Type Definition (DTD)</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">An overview of DTD</shortdesc>
+               </topicmeta>
+            </topic>
+         </topic>
+         <topic href="topics/concepts/oxegen.html" data-id="oxegen_xml_editor" wh-toc-id="oxegen_xml_editor-d66e99">
+            <title>Oxegen XML Editor</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">An overview of the Oxegen XML Editor</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="oxegen_xml_editor"></resourceid>
+               <navtitle class="- topic/navtitle ">Oxegen XML Editor</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Oxegen XML Editor</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">An overview of the Oxegen XML Editor</shortdesc>
+            </topicmeta>
+            <topic href="topics/tasks/creating_schema_languages.html" data-id="creating_schema_languages" wh-toc-id="creating_schema_languages-d66e110">
+               <title>Creating schema languages</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">How to create schema languages</p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="creating_schema_languages"></resourceid>
+                  <navtitle class="- topic/navtitle ">Creating schema languages</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Creating schema languages</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">How to create schema languages</shortdesc>
+               </topicmeta>
+            </topic>
+         </topic>
+      </topic>
+   </topic>
+</toc>

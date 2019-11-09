@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/css' href='file:/C:/Program Files/Oxygen XML Editor 20/frameworks/dita/DITA-OT2.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Program Files/Oxygen XML Editor 20/frameworks/dita/css/print/p-dita.css'?>
+<map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:opentopic-index="http://www.idiominc.com/opentopic/index" cascade="merge" class="- map/map " ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d)                            (topic abbrev-d)                            (topic delay-d)                            a(props deliveryTarget)                            (map ditavalref-d)                            (map glossref-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " xtrc="map:1;3:6" xtrf="file:/C:/Users/Tarat/Desktop/Workspace/publications/xml-language-history/xml-language-history.ditamap"><oxy:front-page xmlns:oxy="http://www.oxygenxml.com/extensions/author" class=" front-page/front-page "><oxy:front-page-title class=" front-page/front-page-title "><title xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- topic/title ">History of XML Languages</title></oxy:front-page-title></oxy:front-page><opentopic:map xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class=" toc/toc "><oxy:toc-title xmlns:oxy="http://www.oxygenxml.com/extensions/author" class=" toc/title" empty="true"/>
+    <title xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/title ">History of XML Languages</title>
+    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_1" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="What_is_a_markup_language"><resourceid appid="What_is_a_markup_language" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_1" class="- topic/navtitle ">What is a markup language</navtitle><shortdesc class="- map/shortdesc ">An overview of markup languages</shortdesc></topicmeta><topicref class="- map/topicref " href="#unique_2" type="reference"><topicmeta class="- map/topicmeta " data-topic-id="different_markup_languages"><resourceid appid="different_markup_languages" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_2" class="- topic/navtitle ">Different markup languages</navtitle><shortdesc class="- map/shortdesc ">A reference list of markup languages</shortdesc></topicmeta><topicref class="- map/topicref " href="#unique_3" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="what_is_xml"><resourceid appid="what_is_xml" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_3" class="- topic/navtitle ">What is XML</navtitle><shortdesc class="- map/shortdesc ">An overview of XML</shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_4" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="what_is_html"><resourceid appid="what_is_html" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_4" class="- topic/navtitle ">What is HTML</navtitle><shortdesc class="- map/shortdesc ">An overview of HTML</shortdesc></topicmeta><topicref class="- map/topicref " href="#unique_5" type="reference"><topicmeta class="- map/topicmeta " data-topic-id="some_html_elements"><resourceid appid="some_html_elements" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_5" class="- topic/navtitle ">Some HTML elements</navtitle><shortdesc class="- map/shortdesc ">An overview of HTML elements</shortdesc></topicmeta></topicref></topicref></topicref><topicref class="- map/topicref " href="#unique_3" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="what_is_xml"><resourceid appid="what_is_xml" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_3_ssol1" class="- topic/navtitle ">What is XML</navtitle><shortdesc class="- map/shortdesc ">An overview of XML</shortdesc></topicmeta><topicref class="- map/topicref " href="#unique_6" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="what_is_a_schema_language"><resourceid appid="what_is_a_schema_language" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_6" class="- topic/navtitle ">What is a schema language</navtitle><shortdesc class="- map/shortdesc ">An overview of schema languages</shortdesc></topicmeta><topicref class="- map/topicref " href="#unique_7" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="DTD"><resourceid appid="DTD" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_7" class="- topic/navtitle ">Document Type Definition (DTD)</navtitle><shortdesc class="- map/shortdesc ">An overview of DTD</shortdesc></topicmeta></topicref></topicref><topicref class="- map/topicref " href="#unique_8" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="oxegen_xml_editor"><resourceid appid="oxegen_xml_editor" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_8" class="- topic/navtitle ">Oxegen XML Editor</navtitle><shortdesc class="- map/shortdesc ">An overview of the Oxegen XML Editor</shortdesc></topicmeta><topicref class="- map/topicref " href="#unique_9" type="task"><topicmeta class="- map/topicmeta " data-topic-id="creating_schema_languages"><resourceid appid="creating_schema_languages" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_9" class="- topic/navtitle ">Creating schema languages</navtitle><shortdesc class="- map/shortdesc ">How to create schema languages</shortdesc></topicmeta></topicref></topicref></topicref></topicref>
+</opentopic:map><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:oxy="http://www.oxygenxml.com/extensions/author" break-before="true" is-chapter="true" oxy:topicref-class="- map/topicref " class="- topic/topic concept/concept " id="unique_1" oid="What_is_a_markup_language">
+    <title class="- topic/title ">What is a markup language</title>
+    <shortdesc class="- topic/shortdesc ">An overview of markup languages</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p "/>
+    </conbody>
+<reference class="- topic/topic       reference/reference " id="unique_2" oid="different_markup_languages">
+    <title class="- topic/title ">Different markup languages</title>
+    <shortdesc class="- topic/shortdesc ">A reference list of markup languages</shortdesc>
+    <refbody class="- topic/body        reference/refbody "> </refbody>
+<concept class="- topic/topic concept/concept " id="unique_3" oid="what_is_xml">
+    <title class="- topic/title ">What is XML</title>
+    <shortdesc class="- topic/shortdesc ">An overview of XML</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p "/>
+    </conbody>
+</concept><concept class="- topic/topic concept/concept " id="unique_4" oid="what_is_html">
+    <title class="- topic/title ">What is HTML</title>
+    <shortdesc class="- topic/shortdesc ">An overview of HTML</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p "/>
+    </conbody>
+<reference class="- topic/topic       reference/reference " id="unique_5" oid="some_html_elements">
+    <title class="- topic/title ">Some HTML elements</title>
+    <shortdesc class="- topic/shortdesc ">An overview of HTML elements</shortdesc>
+    <refbody class="- topic/body        reference/refbody "> </refbody>
+</reference></concept></reference><concept class="- topic/topic concept/concept " id="unique_3_ssol1" oid="what_is_xml">
+    <title class="- topic/title ">What is XML</title>
+    <shortdesc class="- topic/shortdesc ">An overview of XML</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p "/>
+    </conbody>
+<concept class="- topic/topic concept/concept " id="unique_6" oid="what_is_a_schema_language">
+    <title class="- topic/title ">What is a schema language</title>
+    <shortdesc class="- topic/shortdesc ">An overview of schema languages</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p "/>
+    </conbody>
+<concept class="- topic/topic concept/concept " id="unique_7" oid="DTD">
+    <title class="- topic/title ">Document Type Definition (DTD)</title>
+    <shortdesc class="- topic/shortdesc ">An overview of DTD</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p "/>
+    </conbody>
+</concept></concept><concept class="- topic/topic concept/concept " id="unique_8" oid="oxegen_xml_editor">
+    <title class="- topic/title ">Oxegen XML Editor</title>
+    <shortdesc class="- topic/shortdesc ">An overview of the Oxegen XML Editor</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p "/>
+    </conbody>
+<task class="- topic/topic task/task " id="unique_9" oid="creating_schema_languages">
+    <title class="- topic/title ">Creating schema languages</title>
+    <shortdesc class="- topic/shortdesc ">How to create schema languages</shortdesc>
+    <taskbody class="- topic/body task/taskbody ">
+        <context class="- topic/section task/context ">
+            <p class="- topic/p "/>
+        </context>
+    </taskbody>
+</task></concept></concept></concept></map>

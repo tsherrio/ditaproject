@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Creating schema languages","shortdesc":"\n                  <p class=\"shortdesc\">How to create schema languages</p>\n               ","href":"topics\/tasks\/creating_schema_languages.html","attributes": {"data-id":"creating_schema_languages",},"menu": {"hasChildren":false,},"tocID":"creating_schema_languages-d66e110","topics":[]}]});

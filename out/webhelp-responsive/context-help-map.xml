@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="What_is_a_markup_language" path="topics/concepts/markup_languages.html"/>
+   <appContext helpID="different_markup_languages"
+               path="topics/references/different_markup_languages.html"/>
+   <appContext helpID="what_is_xml" path="topics/concepts/what_is_xml.html"/>
+   <appContext helpID="what_is_html" path="topics/concepts/what_is_html.html"/>
+   <appContext helpID="some_html_elements" path="topics/references/some_html_elements.html"/>
+   <appContext helpID="what_is_xml" path="topics/concepts/what_is_xml.html"/>
+   <appContext helpID="what_is_a_schema_language" path="topics/concepts/schema_languages.html"/>
+   <appContext helpID="DTD" path="topics/concepts/dtd.html"/>
+   <appContext helpID="oxegen_xml_editor" path="topics/concepts/oxegen.html"/>
+   <appContext helpID="creating_schema_languages"
+               path="topics/tasks/creating_schema_languages.html"/>
+</map>
