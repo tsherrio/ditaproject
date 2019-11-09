@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><toc xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns="http://www.oxygenxml.com/ns/webhelp/toc">
    <title><span xmlns="http://www.w3.org/1999/xhtml" class="title">History of XML Languages</span></title>
    <topic href="topics/concepts/markup_languages.html" data-id="What_is_a_markup_language" wh-toc-id="What_is_a_markup_language-d66e11">
-      <title>What is a markup language</title>
+      <title>Markup language explanation</title>
       <shortdesc>
-         <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">An overview of markup languages</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">In computer text processing, a markup language is a system for annotating a document in a way          that is syntactically
+            distinguishable from the text.
+         </p>
       </shortdesc>
       <topicmeta>
          <resourceid class="- topic/resourceid " oxy-source="topic" appid="What_is_a_markup_language"></resourceid>
-         <navtitle class="- topic/navtitle ">What is a markup language</navtitle><?ditaot gentext?>
+         <navtitle class="- topic/navtitle ">Markup language explanation</navtitle><?ditaot gentext?>
          <linktext class="- map/linktext ">What is a markup language</linktext><?ditaot genshortdesc?>
-         <shortdesc class="- map/shortdesc ">An overview of markup languages</shortdesc>
+         <shortdesc class="- map/shortdesc ">In computer text processing, a markup language is a system for annotating a document in a way          that is syntactically
+            distinguishable from the text.
+         </shortdesc>
       </topicmeta>
       <topic href="topics/references/different_markup_languages.html" data-id="different_markup_languages" wh-toc-id="different_markup_languages-d66e22">
          <title>Different markup languages</title>
@@ -84,13 +88,13 @@
             <topic href="topics/concepts/dtd.html" data-id="DTD" wh-toc-id="DTD-d66e88">
                <title>Document Type Definition (DTD)</title>
                <shortdesc>
-                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">An overview of DTD</p>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">An overview and explanation of DTD</p>
                </shortdesc>
                <topicmeta>
                   <resourceid class="- topic/resourceid " oxy-source="topic" appid="DTD"></resourceid>
                   <navtitle class="- topic/navtitle ">Document Type Definition (DTD)</navtitle><?ditaot gentext?>
                   <linktext class="- map/linktext ">Document Type Definition (DTD)</linktext><?ditaot genshortdesc?>
-                  <shortdesc class="- map/shortdesc ">An overview of DTD</shortdesc>
+                  <shortdesc class="- map/shortdesc ">An overview and explanation of DTD</shortdesc>
                </topicmeta>
             </topic>
          </topic>
