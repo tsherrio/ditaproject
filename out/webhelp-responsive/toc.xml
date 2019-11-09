@@ -75,15 +75,19 @@
             <shortdesc class="- map/shortdesc ">An overview of XML</shortdesc>
          </topicmeta>
          <topic href="topics/concepts/schema_languages.html" data-id="what_is_a_schema_language" wh-toc-id="what_is_a_schema_language-d66e77">
-            <title>What is a schema language</title>
+            <title>Schema language explanation</title>
             <shortdesc>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">An overview of schema languages</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">An XML schema is a description of a type of XML document, typically expressed in terms of constraints on the structure   
+                  and content of documents of that type, above and beyond the basic syntactical constraints imposed by XML itself.      
+               </p>
             </shortdesc>
             <topicmeta>
                <resourceid class="- topic/resourceid " oxy-source="topic" appid="what_is_a_schema_language"></resourceid>
-               <navtitle class="- topic/navtitle ">What is a schema language</navtitle><?ditaot gentext?>
+               <navtitle class="- topic/navtitle ">Schema language explanation</navtitle><?ditaot gentext?>
                <linktext class="- map/linktext ">What is a schema language</linktext><?ditaot genshortdesc?>
-               <shortdesc class="- map/shortdesc ">An overview of schema languages</shortdesc>
+               <shortdesc class="- map/shortdesc ">An XML schema is a description of a type of XML document, typically expressed in terms of constraints on the structure   
+                  and content of documents of that type, above and beyond the basic syntactical constraints imposed by XML itself.      
+               </shortdesc>
             </topicmeta>
             <topic href="topics/concepts/dtd.html" data-id="DTD" wh-toc-id="DTD-d66e88">
                <title>Document Type Definition (DTD)</title>
