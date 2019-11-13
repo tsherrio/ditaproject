@@ -35,7 +35,7 @@
         </section>
         <section>
             <title></title>
-            <p>Some markup languages, such as the widely used HTML, have pre-defined presentation semantics—meaning 
+            <p>Some <xref href="../references/different_markup_languages.dita">different markup languages</xref>, such as the widely used HTML, have pre-defined presentation semantics—meaning 
                 that their specification prescribes generally how to present the structured data on particular media. 
                 Others, such as XML and its predecessor SGML, allow but do not impose such prescriptions—all of the 
                 while allowing users to define any custom document components as they wish. </p>
