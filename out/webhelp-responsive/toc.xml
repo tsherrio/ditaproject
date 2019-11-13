@@ -15,15 +15,15 @@
          </shortdesc>
       </topicmeta>
       <topic href="topics/references/different_markup_languages.html" data-id="different_markup_languages" wh-toc-id="different_markup_languages-d66e25">
-         <title>Different markup languages</title>
+         <title>Different XML markup languages</title>
          <shortdesc>
-            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">A reference list of markup languages</p>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">The following list shows different XML markup languages</p>
          </shortdesc>
          <topicmeta>
             <resourceid class="- topic/resourceid " oxy-source="topic" appid="different_markup_languages"></resourceid>
-            <navtitle class="- topic/navtitle ">Different markup languages</navtitle><?ditaot gentext?>
-            <linktext class="- map/linktext ">Different markup languages</linktext><?ditaot genshortdesc?>
-            <shortdesc class="- map/shortdesc ">A reference list of markup languages</shortdesc>
+            <navtitle class="- topic/navtitle ">Different XML markup languages</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Different XML markup languages</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">The following list shows different XML markup languages</shortdesc>
          </topicmeta>
          <topic href="topics/concepts/what_is_xml.html" data-id="what_is_xml" wh-toc-id="what_is_xml-d66e36">
             <title>What is XML</title>
