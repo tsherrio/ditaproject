@@ -6,23 +6,26 @@
         <navtitle>Markup language explanation</navtitle>
         <searchtitle>What's markup language</searchtitle>
     </titlealts>
-    <shortdesc>In computer text processing, a markup language is a system for annotating a document in a way 
+    <shortdesc>In computer text processing, a <term>markup language</term> is a system for annotating a document in a way 
         that is syntactically distinguishable from the text.</shortdesc>
     <conbody>
         <section>
             <title>Terminology</title>
             <p>
                 <ol>
-                <li>The idea and terminology evolved from the "marking up" of paper manuscripts (i.e., the revision 
+                    <li>The idea and terminology evolved from the <q>marking up</q> of paper manuscripts (i.e., the revision 
                     instructions by editors), which is traditionally written with a red or blue pencil on authors' manuscripts.
                 </li>
-                <li>In digital media, this "blue pencil instruction text" was replaced by tags, which indicate what the parts of the 
+                    <li>In digital media, this <q>blue pencil instruction text</q> was replaced by tags, which indicate what the parts of the 
                     document are, rather than details of how they might be shown on some display. This lets authors 
                     avoid formatting every instance of the same kind of thing redundantly (and possibly inconsistently). 
                     It also avoids the specification of fonts and dimensions which may not apply to many users (such as 
                     those with different-size displays, impaired vision and screen-reading software).</li>
-                </ol>  
+                </ol>
             </p>
+            <fig>
+                <image href="../../resources/images/mark.JPG" height="8cm" width="8cm"></image>
+            </fig>
         </section>
         <section>
             <title>History</title>

@@ -3,19 +3,18 @@
    <topic href="topics/concepts/markup_languages.html" data-id="What_is_a_markup_language" wh-toc-id="What_is_a_markup_language-d66e11">
       <title>Markup language explanation</title>
       <shortdesc>
-         <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">In computer text processing, a markup language is a system for annotating a document in a way          that is syntactically
-            distinguishable from the text.
+         <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">In computer text processing, a <dfn class="term">markup language</dfn> is a system for annotating a document in a way          that is syntactically distinguishable from the text.
          </p>
       </shortdesc>
       <topicmeta>
          <resourceid class="- topic/resourceid " oxy-source="topic" appid="What_is_a_markup_language"></resourceid>
          <navtitle class="- topic/navtitle ">Markup language explanation</navtitle><?ditaot gentext?>
          <linktext class="- map/linktext ">What is a markup language</linktext><?ditaot genshortdesc?>
-         <shortdesc class="- map/shortdesc ">In computer text processing, a markup language is a system for annotating a document in a way          that is syntactically
-            distinguishable from the text.
+         <shortdesc class="- map/shortdesc ">In computer text processing, a 
+            <term class="- topic/term ">markup language</term> is a system for annotating a document in a way          that is syntactically distinguishable from the text.
          </shortdesc>
       </topicmeta>
-      <topic href="topics/references/different_markup_languages.html" data-id="different_markup_languages" wh-toc-id="different_markup_languages-d66e22">
+      <topic href="topics/references/different_markup_languages.html" data-id="different_markup_languages" wh-toc-id="different_markup_languages-d66e25">
          <title>Different markup languages</title>
          <shortdesc>
             <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">A reference list of markup languages</p>
@@ -26,7 +25,7 @@
             <linktext class="- map/linktext ">Different markup languages</linktext><?ditaot genshortdesc?>
             <shortdesc class="- map/shortdesc ">A reference list of markup languages</shortdesc>
          </topicmeta>
-         <topic href="topics/concepts/what_is_xml.html" data-id="what_is_xml" wh-toc-id="what_is_xml-d66e33">
+         <topic href="topics/concepts/what_is_xml.html" data-id="what_is_xml" wh-toc-id="what_is_xml-d66e36">
             <title>What is XML</title>
             <shortdesc>
                <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">An overview of XML</p>
@@ -38,7 +37,7 @@
                <shortdesc class="- map/shortdesc ">An overview of XML</shortdesc>
             </topicmeta>
          </topic>
-         <topic href="topics/concepts/what_is_html.html" data-id="what_is_html" wh-toc-id="what_is_html-d66e44">
+         <topic href="topics/concepts/what_is_html.html" data-id="what_is_html" wh-toc-id="what_is_html-d66e47">
             <title>What is HTML</title>
             <shortdesc>
                <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">An overview of HTML</p>
@@ -49,7 +48,7 @@
                <linktext class="- map/linktext ">What is HTML</linktext><?ditaot genshortdesc?>
                <shortdesc class="- map/shortdesc ">An overview of HTML</shortdesc>
             </topicmeta>
-            <topic href="topics/references/some_html_elements.html" data-id="some_html_elements" wh-toc-id="some_html_elements-d66e55">
+            <topic href="topics/references/some_html_elements.html" data-id="some_html_elements" wh-toc-id="some_html_elements-d66e58">
                <title>Some HTML elements</title>
                <shortdesc>
                   <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">An overview of HTML elements</p>
@@ -63,7 +62,7 @@
             </topic>
          </topic>
       </topic>
-      <topic href="topics/concepts/what_is_xml_2.html" data-id="what_is_xml" wh-toc-id="what_is_xml-d66e66">
+      <topic href="topics/concepts/what_is_xml_2.html" data-id="what_is_xml" wh-toc-id="what_is_xml-d66e69">
          <title>What is XML</title>
          <shortdesc>
             <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">An overview of XML</p>
@@ -74,7 +73,7 @@
             <linktext class="- map/linktext ">What is XML</linktext><?ditaot genshortdesc?>
             <shortdesc class="- map/shortdesc ">An overview of XML</shortdesc>
          </topicmeta>
-         <topic href="topics/concepts/schema_languages.html" data-id="what_is_a_schema_language" wh-toc-id="what_is_a_schema_language-d66e77">
+         <topic href="topics/concepts/schema_languages.html" data-id="what_is_a_schema_language" wh-toc-id="what_is_a_schema_language-d66e80">
             <title>Schema language explanation</title>
             <shortdesc>
                <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">An XML schema is a description of a type of XML document, typically expressed in terms of constraints on the structure   
@@ -89,7 +88,7 @@
                   and content of documents of that type, above and beyond the basic syntactical constraints imposed by XML itself.      
                </shortdesc>
             </topicmeta>
-            <topic href="topics/concepts/dtd.html" data-id="DTD" wh-toc-id="DTD-d66e88">
+            <topic href="topics/concepts/dtd.html" data-id="DTD" wh-toc-id="DTD-d66e91">
                <title>Document Type Definition (DTD)</title>
                <shortdesc>
                   <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">An overview and explanation of DTD</p>
@@ -102,7 +101,7 @@
                </topicmeta>
             </topic>
          </topic>
-         <topic href="topics/concepts/oxegen.html" data-id="oxegen_xml_editor" wh-toc-id="oxegen_xml_editor-d66e99">
+         <topic href="topics/concepts/oxegen.html" data-id="oxegen_xml_editor" wh-toc-id="oxegen_xml_editor-d66e102">
             <title>Oxegen XML Editor</title>
             <shortdesc>
                <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">An overview of the Oxegen XML Editor</p>
@@ -113,7 +112,7 @@
                <linktext class="- map/linktext ">Oxegen XML Editor</linktext><?ditaot genshortdesc?>
                <shortdesc class="- map/shortdesc ">An overview of the Oxegen XML Editor</shortdesc>
             </topicmeta>
-            <topic href="topics/tasks/creating_schema_languages.html" data-id="creating_schema_languages" wh-toc-id="creating_schema_languages-d66e110">
+            <topic href="topics/tasks/creating_schema_languages.html" data-id="creating_schema_languages" wh-toc-id="creating_schema_languages-d66e113">
                <title>Creating schema languages</title>
                <shortdesc>
                   <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">How to create schema languages</p>

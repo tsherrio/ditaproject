@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:opentopic-index="http://www.idiominc.com/opentopic/index" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept)                            (topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " id="What_is_a_markup_language" xtrc="concept:1;3:41" xtrf="file:/C:/Users/Tarat/Desktop/Workspace/publications/xml-language-history/topics/concepts/markup_languages.dita">
+    <title class="- topic/title " xtrc="title:1;4:12" xtrf="file:/C:/Users/Tarat/Desktop/Workspace/publications/xml-language-history/topics/concepts/markup_languages.dita">What is a markup language</title>
+    <titlealts class="- topic/titlealts " xtrc="titlealts:1;5:16" xtrf="file:/C:/Users/Tarat/Desktop/Workspace/publications/xml-language-history/topics/concepts/markup_languages.dita">
+        <navtitle class="- topic/navtitle " xtrc="navtitle:1;6:19" xtrf="file:/C:/Users/Tarat/Desktop/Workspace/publications/xml-language-history/topics/concepts/markup_languages.dita">Markup language explanation</navtitle>
+        <searchtitle class="- topic/searchtitle " xtrc="searchtitle:1;7:22" xtrf="file:/C:/Users/Tarat/Desktop/Workspace/publications/xml-language-history/topics/concepts/markup_languages.dita">What's markup language</searchtitle>
+    </titlealts>
+    <shortdesc class="- topic/shortdesc " xtrc="shortdesc:1;9:16" xtrf="file:/C:/Users/Tarat/Desktop/Workspace/publications/xml-language-history/topics/concepts/markup_languages.dita">In computer text processing, a <term class="- topic/term " xtrc="term:1;9:53" xtrf="file:/C:/Users/Tarat/Desktop/Workspace/publications/xml-language-history/topics/concepts/markup_languages.dita">markup language</term> is a system for annotating a document in a way 
+        that is syntactically distinguishable from the text.</shortdesc>
+    <conbody class="- topic/body  concept/conbody " xtrc="conbody:1;11:14" xtrf="file:/C:/Users/Tarat/Desktop/Workspace/publications/xml-language-history/topics/concepts/markup_languages.dita">
+        <section class="- topic/section " xtrc="section:1;12:18" xtrf="file:/C:/Users/Tarat/Desktop/Workspace/publications/xml-language-history/topics/concepts/markup_languages.dita">
+            <title class="- topic/title " xtrc="title:2;13:20" xtrf="file:/C:/Users/Tarat/Desktop/Workspace/publications/xml-language-history/topics/concepts/markup_languages.dita">Terminology</title>
+            <p class="- topic/p " xtrc="p:1;14:16" xtrf="file:/C:/Users/Tarat/Desktop/Workspace/publications/xml-language-history/topics/concepts/markup_languages.dita">
+                <ol class="- topic/ol " xtrc="ol:1;15:21" xtrf="file:/C:/Users/Tarat/Desktop/Workspace/publications/xml-language-history/topics/concepts/markup_languages.dita">
+                    <li class="- topic/li " xtrc="li:1;16:25" xtrf="file:/C:/Users/Tarat/Desktop/Workspace/publications/xml-language-history/topics/concepts/markup_languages.dita">The idea and terminology evolved from the <q class="- topic/q " xtrc="q:1;16:70" xtrf="file:/C:/Users/Tarat/Desktop/Workspace/publications/xml-language-history/topics/concepts/markup_languages.dita">marking up</q> of paper manuscripts (i.e., the revision 
+                    instructions by editors), which is traditionally written with a red or blue pencil on authors' manuscripts.
+                </li>
+                    <li class="- topic/li " xtrc="li:2;19:25" xtrf="file:/C:/Users/Tarat/Desktop/Workspace/publications/xml-language-history/topics/concepts/markup_languages.dita">In digital media, this <q class="- topic/q " xtrc="q:2;19:51" xtrf="file:/C:/Users/Tarat/Desktop/Workspace/publications/xml-language-history/topics/concepts/markup_languages.dita">blue pencil instruction text</q> was replaced by tags, which indicate what the parts of the 
+                    document are, rather than details of how they might be shown on some display. This lets authors 
+                    avoid formatting every instance of the same kind of thing redundantly (and possibly inconsistently). 
+                    It also avoids the specification of fonts and dimensions which may not apply to many users (such as 
+                    those with different-size displays, impaired vision and screen-reading software).</li>
+                </ol>  
+            </p>
+        </section>
+        <section class="- topic/section " xtrc="section:2;27:18" xtrf="file:/C:/Users/Tarat/Desktop/Workspace/publications/xml-language-history/topics/concepts/markup_languages.dita">
+            <title class="- topic/title " xtrc="title:3;28:20" xtrf="file:/C:/Users/Tarat/Desktop/Workspace/publications/xml-language-history/topics/concepts/markup_languages.dita">History</title>
+            <p class="- topic/p " xtrc="p:2;29:16" xtrf="file:/C:/Users/Tarat/Desktop/Workspace/publications/xml-language-history/topics/concepts/markup_languages.dita">Early markup systems typically included typesetting instructions, as troff, TeX and LaTeX do, while 
+                Scribe and most modern markup systems name components, and later process those names to apply formatting 
+                or other processing, as in the case of XML.</p>
+        </section>
+        <section class="- topic/section " xtrc="section:3;33:18" xtrf="file:/C:/Users/Tarat/Desktop/Workspace/publications/xml-language-history/topics/concepts/markup_languages.dita">
+            <title class="- topic/title " xtrc="title:4;34:20" xtrf="file:/C:/Users/Tarat/Desktop/Workspace/publications/xml-language-history/topics/concepts/markup_languages.dita"/>
+            <p class="- topic/p " xtrc="p:3;35:16" xtrf="file:/C:/Users/Tarat/Desktop/Workspace/publications/xml-language-history/topics/concepts/markup_languages.dita">Some markup languages, such as the widely used HTML, have pre-defined presentation semantics—meaning 
+                that their specification prescribes generally how to present the structured data on particular media. 
+                Others, such as XML and its predecessor SGML, allow but do not impose such prescriptions—all of the 
+                while allowing users to define any custom document components as they wish. </p>
+        </section>
+        <section class="- topic/section " xtrc="section:4;40:18" xtrf="file:/C:/Users/Tarat/Desktop/Workspace/publications/xml-language-history/topics/concepts/markup_languages.dita">
+            <title class="- topic/title " xtrc="title:5;41:20" xtrf="file:/C:/Users/Tarat/Desktop/Workspace/publications/xml-language-history/topics/concepts/markup_languages.dita">Applications</title>
+            <p class="- topic/p " xtrc="p:4;42:16" xtrf="file:/C:/Users/Tarat/Desktop/Workspace/publications/xml-language-history/topics/concepts/markup_languages.dita">HyperText Markup Language (HTML), one of the document formats of the World Wide Web, is an application 
+                of SGML and XML. Other applications, such as DocBook, Open eBook, JATS and others, are heavily used in 
+                the communication of work between authors, editors, and printers.</p>
+        </section>
+    </conbody>
+<opentopic-index:index.groups/></concept>

@@ -6,6 +6,5 @@
     </meta>
     <projectTree name="xml-language-history.xpr">
         <folder path="."/>
-        <file name="markup_languages.dita"/>
     </projectTree>
 </project>
